@@ -1,0 +1,11 @@
+{
+  "name": "transparent-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy.mjs",
+    "supervise": "bash supervisor.sh",
+    "status": "bash supervisor.sh status",
+    "stop": "bash supervisor.sh stop"
+  }
+}
