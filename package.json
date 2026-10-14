@@ -1,0 +1,14 @@
+{
+  "name": "openai-responses-forwarder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authenticated Responses passthrough proxy and health dashboard",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node proxy.cjs",
+    "test": "node test/proxy.cjs",
+    "check": "node --check proxy.cjs && node --check monitor.cjs && node --check upstream-auth.cjs && node --check test/proxy.cjs"
+  }
+}

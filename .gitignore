@@ -1,0 +1,12 @@
+/access-token
+/access-token.*
+/upstream-api-key
+/upstream-api-key.*
+/public-url
+/schedule.json
+/cloudflared
+*.log
+*.pid
+node_modules/
+.env
+.env.*
